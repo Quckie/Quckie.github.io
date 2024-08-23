@@ -1,4 +1,4 @@
-.en-idei-club-p-simple-backgrou-icon1 {
+.en-idei-club-p-simple-backgrou-icon2 {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -12,197 +12,174 @@
   max-height: 100%;
   object-fit: cover;
 }
-.home1,
-.info {
+.home2,
+.info1 {
+  display: inline-block;
+}
+.home2 {
+  text-decoration: none;
+  position: relative;
+  font-style: italic;
+  font-weight: 800;
+  color: inherit;
+  min-width: 5.813rem;
+  z-index: 1;
+}
+.info1 {
+  min-width: 4.563rem;
+}
+.contact1,
+.info1 {
   text-decoration: none;
   position: relative;
   font-weight: 800;
   color: inherit;
-  display: inline-block;
   cursor: pointer;
   z-index: 1;
 }
-.home1 {
-  font-style: italic;
-  min-width: 5.813rem;
-}
-.info {
-  min-width: 4.563rem;
-}
-.navigation1 {
+.contact-info,
+.contact-info-wrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 0.875rem;
+  max-width: 100%;
 }
-.instagram-1-icon {
-  height: 12.5rem;
-  width: 12.763rem;
-  position: relative;
-  object-fit: cover;
-  min-height: 12.5rem;
-}
-.jhon-anthony01 {
+.contact-info {
   margin: 0;
-  height: 12.5rem;
-  flex: 1;
-  position: relative;
-  font-size: inherit;
-  line-height: 100%;
-  font-weight: 900;
-  font-family: inherit;
-  display: inline-block;
-  min-width: 26.375rem;
-  max-width: 100%;
-}
-.social-icons {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  max-width: 100%;
-  row-gap: 20px;
-  font-size: 56px;
-}
-.jhon-anthony-claret {
-  margin: 0;
-  height: 12.5rem;
-  flex: 1;
-  position: relative;
-  font-size: inherit;
-  line-height: 100%;
-  font-weight: 900;
-  font-family: inherit;
-  display: inline-block;
-  min-width: 37rem;
-  max-width: 100%;
-}
-.social-icons1 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  max-width: 100%;
-  row-gap: 20px;
-}
-.bedana-jhonan-thony {
-  margin: 0;
-  height: 12.5rem;
-  flex: 1;
-  position: relative;
-  font-size: inherit;
-  line-height: 100%;
-  font-weight: 900;
-  font-family: inherit;
-  display: inline-block;
-  min-width: 38.5rem;
-  max-width: 100%;
-}
-.social-icons2 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  gap: 3.75rem;
-  max-width: 100%;
-}
-.social-media {
-  flex: 1;
-  flex-direction: column;
-  padding: 0 1.875rem;
-  gap: 4.062rem;
-  max-width: 100%;
-  z-index: 1;
-  text-align: center;
-  font-size: var(--font-size-33xl);
-  color: var(--color-black);
-  font-family: var(--font-inter);
-}
-.desktop-3,
-.social,
-.social-media {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-}
-.social {
-  align-self: stretch;
-  flex-direction: row;
-  padding: 0 1.187rem 0 1.062rem;
-  max-width: 100%;
-}
-.desktop-3 {
-  width: 100%;
-  position: relative;
-  background-color: #fff;
-  overflow: hidden;
-  flex-direction: column;
-  padding: var(--padding-28xl) var(--padding-5xl) 9.187rem;
-  gap: 4rem;
-  line-height: normal;
-  letter-spacing: normal;
+  gap: 0.906rem;
   text-align: left;
   font-size: var(--font-size-11xl);
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 800px) {
-  .home1,
-  .info {
-    font-size: var(--font-size-5xl);
+.contact-info-wrapper {
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.hey-im,
+.jhon-anthony-claret1 {
+  margin-left: -0.25rem;
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 800;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.hey-im {
+  white-space: pre-wrap;
+}
+.jhon-anthony-claret1 {
+  color: var(--color-black);
+  text-align: center;
+}
+.analyst-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 9.875rem 0;
+  box-sizing: border-box;
+  gap: 1.375rem;
+  min-height: 20.875rem;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: #3430ff;
+  font-family: var(--font-inter);
+}
+.data-analyst {
+  margin-left: -1.75rem;
+  width: 90rem;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  mix-blend-mode: normal;
+  max-width: 102%;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.education-is-the {
+  margin: 0;
+}
+.education-is-the-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 900;
+  padding-right: 1.75rem;
+  z-index: 1;
+}
+.analyst-info1,
+.desktop-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.analyst-info1 {
+  align-self: stretch;
+  padding: 0 var(--padding-9xs) 0 var(--padding-5xl);
+  gap: 2.25rem;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: var(--padding-28xl) 0 13.875rem;
+  gap: 5.937rem;
+  background-image: url(./public/1686657523-enideiclubpsimplebackgrounddizainpinterest1-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .hey-im,
+  .jhon-anthony-claret1 {
+    font-size: var(--font-size-32xl);
   }
-  .jhon-anthony01 {
-    font-size: 45px;
-    line-height: 45px;
+  .data-analyst {
+    font-size: var(--font-size-7xl);
   }
-  .bedana-jhonan-thony,
-  .jhon-anthony-claret {
-    font-size: var(--font-size-23xl);
-    line-height: 42px;
-    min-width: 100%;
+  .education-is-the-container {
+    font-size: var(--font-size-13xl);
+    line-height: 32px;
   }
-  .desktop-3 {
-    gap: var(--gap-13xl);
+  .desktop-1 {
+    gap: 2.938rem;
   }
 }
 @media screen and (max-width: 675px) {
-  .jhon-anthony01 {
-    min-width: 100%;
-  }
-  .social-icons2 {
-    gap: 1.875rem;
-  }
-  .social-media {
-    gap: var(--gap-13xl);
+  .analyst-info1 {
+    gap: 1.125rem;
   }
 }
 @media screen and (max-width: 450px) {
-  .home1,
-  .info {
-    font-size: var(--font-size-lg);
+  .hey-im,
+  .jhon-anthony-claret1 {
+    font-size: var(--font-size-19xl);
   }
-  .jhon-anthony01 {
-    font-size: 34px;
-    line-height: 34px;
+  .data-analyst {
+    font-size: var(--font-size-lgi);
   }
-  .bedana-jhonan-thony,
-  .jhon-anthony-claret {
-    font-size: var(--font-size-12xl);
-    line-height: 31px;
+  .education-is-the-container {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
   }
-  .desktop-3,
-  .social-media {
-    gap: var(--gap-base);
+  .desktop-1 {
+    gap: 1.5rem;
   }
 }

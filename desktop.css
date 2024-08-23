@@ -1,8 +1,7 @@
-.en-idei-club-p-simple-backgrou-icon2 {
-  width: 100%;
-  height: 100%;
+.en-idei-club-p-simple-backgrou-icon {
   position: absolute;
-  margin: 0 !important;
+  height: 100%;
+  width: 100%;
   top: 0;
   right: 0;
   bottom: 0;
@@ -12,174 +11,180 @@
   max-height: 100%;
   object-fit: cover;
 }
-.home2,
-.info1 {
+.en-idei-club-p-simple-backgrou-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.contact,
+.home {
+  text-decoration: none;
+  position: relative;
+  font-weight: 800;
+  color: inherit;
+}
+.home {
   display: inline-block;
-}
-.home2 {
-  text-decoration: none;
-  position: relative;
   font-style: italic;
-  font-weight: 800;
-  color: inherit;
   min-width: 5.813rem;
-  z-index: 1;
 }
-.info1 {
-  min-width: 4.563rem;
-}
-.contact1,
-.info1 {
-  text-decoration: none;
-  position: relative;
-  font-weight: 800;
-  color: inherit;
+.contact {
   cursor: pointer;
-  z-index: 1;
 }
-.contact-info,
-.contact-info-wrapper {
+.navigation,
+.navigation-wrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.contact-info {
-  margin: 0;
-  gap: 0.906rem;
-  text-align: left;
-  font-size: var(--font-size-11xl);
-  color: var(--color-black);
-  font-family: var(--font-inter);
+.navigation {
+  flex: 1;
+  gap: 0.937rem;
+  cursor: pointer;
+  z-index: 2;
 }
-.contact-info-wrapper {
-  padding: 0 var(--padding-5xl);
+.navigation-wrapper {
+  width: 25.081rem;
+  padding: 0 0.187rem;
   box-sizing: border-box;
 }
-.hey-im,
-.jhon-anthony-claret1 {
-  margin-left: -0.25rem;
-  margin: 0;
-  align-self: stretch;
+.d79a-aa6b-4df6-964f-665b4328f6-icon {
+  height: 18.75rem;
+  width: 18.75rem;
   position: relative;
-  font-size: inherit;
-  font-style: italic;
-  font-weight: 800;
-  font-family: inherit;
-  mix-blend-mode: normal;
-  z-index: 1;
+  object-fit: cover;
 }
-.hey-im {
-  white-space: pre-wrap;
-}
-.jhon-anthony-claret1 {
-  color: var(--color-black);
-  text-align: center;
-}
-.analyst-info {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-9xs) 9.875rem 0;
-  box-sizing: border-box;
-  gap: 1.375rem;
-  min-height: 20.875rem;
-  text-align: left;
-  font-size: var(--font-size-45xl);
-  color: #3430ff;
-  font-family: var(--font-inter);
-}
-.data-analyst {
-  margin-left: -1.75rem;
-  width: 90rem;
-  position: relative;
-  display: inline-block;
-  font-weight: 800;
-  mix-blend-mode: normal;
-  max-width: 102%;
-  flex-shrink: 0;
-  z-index: 1;
-}
-.education-is-the {
+.i-like-playing {
   margin: 0;
 }
-.education-is-the-container {
-  align-self: stretch;
+.i-like-playing-container {
   position: relative;
-  font-size: 40px;
   line-height: 100%;
   font-weight: 900;
-  padding-right: 1.75rem;
-  z-index: 1;
 }
-.analyst-info1,
-.desktop-1 {
+.i-like-playing-basketball-beca-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  padding: 7.375rem 0 0;
+  box-sizing: border-box;
+  min-width: 50.5rem;
+  max-width: 100%;
+}
+.d79a-aa6b-4df6-964f-665b4328f6-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.work-like-bank {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.i-am-a-student-of-college-of-m-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.375rem 0 0;
+  box-sizing: border-box;
+  min-width: 53.25rem;
+  max-width: 100%;
+}
+.f6c141a8-0b2f-4c3f-9132-17983b-icon {
+  height: 18.75rem;
+  width: 18.75rem;
+  position: relative;
+  object-fit: cover;
+}
+.i-also-like-to-go-anywhere-wit-wrapper {
+  flex-direction: column;
+  padding: 6.375rem 0 0;
+  max-width: 100%;
+}
+.desktop-2,
+.f6c141a8-0b2f-4c3f-9132-17983b-parent,
+.frame-parent,
+.i-also-like-to-go-anywhere-wit-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   box-sizing: border-box;
 }
-.analyst-info1 {
-  align-self: stretch;
-  padding: 0 var(--padding-9xs) 0 var(--padding-5xl);
-  gap: 2.25rem;
+.f6c141a8-0b2f-4c3f-9132-17983b-parent {
+  flex-direction: row;
+  padding: 0 1.375rem 0 0;
+  gap: var(--gap-3xs);
   max-width: 100%;
-  text-align: center;
-  font-size: var(--font-size-13xl);
-  color: var(--color-black);
-  font-family: var(--font-inter);
 }
-.desktop-1 {
+.desktop-2,
+.frame-parent {
+  flex-direction: column;
+}
+.frame-parent {
+  padding: 0 0.437rem 0 0;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  z-index: 2;
+  font-size: var(--font-size-13xl);
+}
+.desktop-2 {
   width: 100%;
   position: relative;
   overflow: hidden;
-  padding: var(--padding-28xl) 0 13.875rem;
-  gap: 5.937rem;
-  background-image: url(./public/1686657523-enideiclubpsimplebackgrounddizainpinterest1-1@2x.png);
+  padding: var(--padding-28xl) 1.312rem 0;
+  gap: 1.312rem;
+  background-image: url(./public/desktop--2@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1225px) {
+  .d79a-aa6b-4df6-964f-665b4328f6-icon,
+  .i-like-playing-basketball-beca-wrapper {
+    flex: 1;
+  }
+  .d79a-aa6b-4df6-964f-665b4328f6-parent {
+    flex-wrap: wrap;
+  }
+  .i-am-a-student-of-college-of-m-wrapper {
+    flex: 1;
+  }
+  .f6c141a8-0b2f-4c3f-9132-17983b-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .i-am-a-student-of-college-of-m-wrapper,
+  .i-like-playing-basketball-beca-wrapper {
+    min-width: 100%;
+  }
 }
 @media screen and (max-width: 750px) {
-  .hey-im,
-  .jhon-anthony-claret1 {
-    font-size: var(--font-size-32xl);
-  }
-  .data-analyst {
+  .i-like-playing-container {
     font-size: var(--font-size-7xl);
-  }
-  .education-is-the-container {
-    font-size: var(--font-size-13xl);
-    line-height: 32px;
-  }
-  .desktop-1 {
-    gap: 2.938rem;
-  }
-}
-@media screen and (max-width: 675px) {
-  .analyst-info1 {
-    gap: 1.125rem;
+    line-height: 26px;
   }
 }
 @media screen and (max-width: 450px) {
-  .hey-im,
-  .jhon-anthony-claret1 {
-    font-size: var(--font-size-19xl);
-  }
-  .data-analyst {
+  .i-like-playing-container {
     font-size: var(--font-size-lgi);
-  }
-  .education-is-the-container {
-    font-size: var(--font-size-5xl);
-    line-height: 24px;
-  }
-  .desktop-1 {
-    gap: 1.5rem;
+    line-height: 19px;
   }
 }
