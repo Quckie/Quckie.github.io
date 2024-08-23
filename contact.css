@@ -184,10 +184,6 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .home1,
-  .info {
-    font-size: var(--font-size-lg);
-  }
   .jhon-anthony01 {
     font-size: 34px;
     line-height: 34px;
