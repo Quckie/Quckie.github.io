@@ -1,0 +1,190 @@
+.en-idei-club-p-simple-backgrou-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.en-idei-club-p-simple-backgrou-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.contact,
+.home {
+  text-decoration: none;
+  position: relative;
+  font-weight: 800;
+  color: inherit;
+}
+.home {
+  display: inline-block;
+  font-style: italic;
+  min-width: 5.813rem;
+}
+.contact {
+  cursor: pointer;
+}
+.navigation,
+.navigation-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.navigation {
+  flex: 1;
+  gap: 0.937rem;
+  cursor: pointer;
+  z-index: 2;
+}
+.navigation-wrapper {
+  width: 25.081rem;
+  padding: 0 0.187rem;
+  box-sizing: border-box;
+}
+.d79a-aa6b-4df6-964f-665b4328f6-icon {
+  height: 18.75rem;
+  width: 18.75rem;
+  position: relative;
+  object-fit: cover;
+}
+.i-like-playing {
+  margin: 0;
+}
+.i-like-playing-container {
+  position: relative;
+  line-height: 100%;
+  font-weight: 900;
+}
+.i-like-playing-basketball-beca-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7.375rem 0 0;
+  box-sizing: border-box;
+  min-width: 50.5rem;
+  max-width: 100%;
+}
+.d79a-aa6b-4df6-964f-665b4328f6-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.work-like-bank {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.i-am-a-student-of-college-of-m-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.375rem 0 0;
+  box-sizing: border-box;
+  min-width: 53.25rem;
+  max-width: 100%;
+}
+.f6c141a8-0b2f-4c3f-9132-17983b-icon {
+  height: 18.75rem;
+  width: 18.75rem;
+  position: relative;
+  object-fit: cover;
+}
+.i-also-like-to-go-anywhere-wit-wrapper {
+  flex-direction: column;
+  padding: 6.375rem 0 0;
+  max-width: 100%;
+}
+.desktop-2,
+.f6c141a8-0b2f-4c3f-9132-17983b-parent,
+.frame-parent,
+.i-also-like-to-go-anywhere-wit-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.f6c141a8-0b2f-4c3f-9132-17983b-parent {
+  flex-direction: row;
+  padding: 0 1.375rem 0 0;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.desktop-2,
+.frame-parent {
+  flex-direction: column;
+}
+.frame-parent {
+  padding: 0 0.437rem 0 0;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  z-index: 2;
+  font-size: var(--font-size-13xl);
+}
+.desktop-2 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: var(--padding-28xl) 1.312rem 0;
+  gap: 1.312rem;
+  background-image: url(./public/desktop--2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1225px) {
+  .d79a-aa6b-4df6-964f-665b4328f6-icon,
+  .i-like-playing-basketball-beca-wrapper {
+    flex: 1;
+  }
+  .d79a-aa6b-4df6-964f-665b4328f6-parent {
+    flex-wrap: wrap;
+  }
+  .i-am-a-student-of-college-of-m-wrapper {
+    flex: 1;
+  }
+  .f6c141a8-0b2f-4c3f-9132-17983b-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .i-am-a-student-of-college-of-m-wrapper,
+  .i-like-playing-basketball-beca-wrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .i-like-playing-container {
+    font-size: var(--font-size-7xl);
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .i-like-playing-container {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+}
